@@ -1,0 +1,153 @@
+body {
+    margin: 0;
+    background-color: #eee;
+    font-family: 'Lato', sans-serif;
+}
+
+
+/* ___________________________________________header start___________________________________________ */
+
+header {
+/*    position: fixed;
+    top: 0;*/
+    width: 100%;
+    display: flex;
+    margin: 1% 0;
+
+}
+
+a {
+    text-decoration: none;
+    color: black;
+}
+
+#logo {
+    width: 60%;
+    display: flex;
+    align-items: center;
+}
+
+#nav-bar {
+    width: 40%;
+}
+
+#point {
+    list-style: none;
+    display: flex;
+    justify-content: space-around;
+}
+
+/* ___________________________________________header end___________________________________________ */
+
+/* ___________________________________________main start___________________________________________ */
+
+main {
+    width: 65%;
+    margin: 0 auto;
+}
+
+h1, form {
+    text-align: center;
+}
+
+#btn {
+    display: block;
+    background-color: crimson;
+    width: 12%;
+    height: 5%;
+    margin: 15px auto 70px;
+    padding: 5px 5px 5px 20px;
+    text-align: right;
+    border-radius: 3px;
+}
+
+#email {
+    padding: 5px;
+    width: 35%;
+}
+
+.img_text {
+    display: flex;
+    align-items: center;
+    margin: 55px 0;
+}
+
+#img {
+    display: flex;
+    align-items: center;
+    margin: 0 50px;
+}
+
+.ind-h2 {
+    margin: 0;
+    padding: 0;
+}
+
+.ind-p {
+    margin: 0;
+    padding: 0;
+}
+
+iframe {
+    display: block;
+    margin: 0 auto 70px;
+}
+
+section {
+    display: flex;
+    justify-content: space-around;
+}
+
+article {
+    display: block;
+    text-align: center;
+    width: calc(100% / 3);
+    margin: 10px;
+    border: 1px solid black;
+    padding: 0 0 25px;
+}
+
+.btn {
+    padding: 10px 20px;
+    border-radius: 3px;
+    background-color: crimson;
+}
+
+h3 {
+    background-color: #f77890;
+    padding: 15px 10px;
+    margin: 0;
+}
+
+/* ___________________________________________main and___________________________________________ */
+
+
+/* ___________________________________________footer start___________________________________________ */
+
+footer {
+    width: 65%;
+    margin: 25px auto 0;
+    padding: 15px 15px;
+    background-color: #f77890;
+    text-align: right;
+}
+
+#text-footer {
+    color: beige;
+    font-size: 90%;
+    margin: 0;
+}
+
+#ul-footer1 {
+    list-style: none;
+    display: flex;
+    justify-content: flex-end;
+}
+
+.ind-li-and {
+    margin: 0 13px;
+}
+
+/* ___________________________________________footer and___________________________________________ */
+
+
